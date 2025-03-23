@@ -1,0 +1,23 @@
+
+---
+
+### **2. 34_EndpointHealthChecker**  
+**Description:**  
+A script to monitor availability and latency of API endpoints.
+
+#### **README.md**
+```markdown
+# EndpointHealthChecker - API Uptime Tracker
+
+EndpointHealthChecker performs periodic checks on endpoints and prints results with response time.
+
+## Features
+- Ping multiple APIs  
+- Shows HTTP codes and latency  
+- Lightweight  
+
+## Usage
+```bash
+git clone https://github.com/your-username/34_EndpointHealthChecker.git
+cd 34_EndpointHealthChecker
+python monitor.py
