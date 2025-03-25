@@ -1,0 +1,23 @@
+
+---
+
+### **3. 34_LogPatternSniffer**  
+**Description:**  
+Scans system or app logs to identify repeating errors and patterns.
+
+#### **README.md**
+```markdown
+# LogPatternSniffer - Log Error Analyzer
+
+LogPatternSniffer reads logs and detects repeated error messages or suspicious phrases.
+
+## Features
+- Auth log & syslog support  
+- Grouped keyword frequency  
+- Command line friendly  
+
+## Usage
+```bash
+git clone https://github.com/your-username/34_LogPatternSniffer.git
+cd 34_LogPatternSniffer
+python analyze.py /var/log/syslog
